@@ -1,16 +1,16 @@
 {
   "name": "references-bun-catalog",
+  "devDependencies": {
+    "@types/bun": "^1.1.6"
+  },
   "private": true,
-  "type": "module",
   "scripts": {
     "dev:trigger": "trigger dev",
     "deploy": "trigger deploy"
   },
+  "type": "module",
   "dependencies": {
-    "@trigger.dev/sdk": "workspace:*"
-  },
-  "devDependencies": {
-    "@types/bun": "^1.1.6",
-    "trigger.dev": "workspace:*"
+    "@trigger.dev/sdk": "^4.4.1",
+    "trigger.dev": "^4.4.1"
   }
 }
